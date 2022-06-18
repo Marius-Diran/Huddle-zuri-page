@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+}
+
+.main{
+    background: url("images/bg.svg") hsl(193, 100%, 96%);
+    height: fit-content;
+}
+
+.logo{
+    width: 17%;
+    padding: 4vh 0;
+}
+
+.first-btn{
+    margin: -8.8vh 0 0 75vw;
+    width: 13%;
+}
+
+.main-btn{
+    border: none;
+    background-color: hsl(0, 0%, 100%);
+    width: 100%;
+    height: 5.5vh;
+    border-radius: 20px;
+    box-shadow: 0 3px 10px hsla(0, 0%, 0%, 0.4);
+}
+
+.holder-1{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 15vh 0;
+}
+
+.writeup{
+    margin: -16vh 0 0 0;
+    width: 65%;
+}
+
+.writeup h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.5rem;
+    padding: 6vh 0;
+}
+
+.writeup p{
+    padding: 0 0 5vh 0;
+}
+
+.writeup-btn{
+    border: none;
+    background-color: hsl(322, 100%, 66%);
+    height: 6.5vh;
+    width: 50%;
+    border-radius: 20px;
+    color: hsl(0, 0%, 100%);
+}
+
+.holder1-img{
+    background: url("images/illustration-mockups.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 75vh;
+    width: 100%;
+    margin:  0 0 0 3vw;
+}
+
+.section1{
+    margin: 20vh auto 0;
+}
+
+.holder-2{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: fit-content;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px hsla(0, 0%, 0%, 0.2);
+    padding: 10vh 0;
+}
+
+.writeup2{
+    margin: 0 0 0 12vw;
+    width: 70%;
+}
+
+.writeup2 h2{
+    font-size: 1.8rem;
+    font-weight: 700;
+    padding: 3vh 0;
+}
+
+.writeup2 p{
+    line-height: 150%;
+}
+
+.holder2-img{
+    background: url("images/illustration-grow-together.svg");
+    background-position: center;
+    background-size: 60vh;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 50vh;
+}
+
+.section2{
+    margin: 8vh auto 0;
+}
+
+.holder-3{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: fit-content;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px hsla(0, 0%, 0%, 0.2);
+    padding: 10vh 0;
+}
+
+.writeup3{
+    margin: 0 5vw 0 0;
+    width: 62%;
+}
+
+.writeup3 h2{
+    font-size: 1.8rem;
+    font-weight: 700;
+    padding: 3vh 0;
+}
+
+.writeup3 p{
+    line-height: 150%;
+}
+
+.holder3-img{
+    background: url("images/illustration-flowing-conversation.svg");
+    background-position: center;
+    background-size: 60vh;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 50vh;
+}
+
+.section3{
+    margin: 8vh auto 0;
+}
+
+.holder-4{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: fit-content;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px hsla(0, 0%, 0%, 0.2);
+    padding: 10vh 0;
+}
+
+.writeup4{
+    margin: 0 0 0 12vw;
+    width: 75%;
+}
+
+.writeup4 h2{
+    font-size: 1.8rem;
+    font-weight: 700;
+    padding: 3vh 0;
+}
+
+.writeup4 p{
+    line-height: 150%;
+}
+
+.holder4-img{
+    background: url("images/illustration-your-users.svg");
+    background-position: center;
+    background-size: 60vh;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 50vh;
+}
+
+.footer{
+    position: relative;
+    margin: 30vh 0 0 0;
+    height: 50vh;
+    background-color: hsl(192, 100%, 9%);
+}
+
+.last-holder{
+    position: absolute;
+    margin: -18vh auto;
+}
+
+.last-writeup{
+    background-color: hsl(0, 0%, 100%);
+    width: 60%;
+    height: 35vh;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px hsla(0, 0%, 0%, 0.2);
+    text-align: center;
+    margin: 0 20vw;
+}
+
+.last-writeup h1{
+    padding: 7vh 0;
+}
+
+.last-btn{
+    border: none;
+    background-color: hsl(322, 100%, 66%);
+    height: 8vh;
+    width: 40%;
+    border-radius: 30px;
+    color: hsl(0, 0%, 100%);
+}
+
+.last_logo{
+    margin: 20vh 0 0 0;
+    filter: invert(100%) sepia(0%) saturate(7485%) hue-rotate(261deg) brightness(103%) contrast(105%);
+}
