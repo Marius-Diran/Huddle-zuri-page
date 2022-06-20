@@ -413,7 +413,13 @@ body{
         margin: 65vh 0 0 0;
     }
 
+    .writeup2 h1{
+        height: fit-content;
+        font-size: 4vw;
+    }
+
     .writeup2 p{
+        height: fit-content;
         width: 70%;
         margin: 0 auto;
         font-size: 3.5vw;
@@ -425,6 +431,38 @@ body{
     }
 
     .vector2{
+        width: 100%;
+    }
+
+    .holder-3{
+        margin: 6vh auto 0;
+        display: block;
+        height: fit-content;
+        min-width: 100%;
+    }
+
+    .writeup3{
+        width: 100%;
+        text-align: center;
+        margin: 2vh auto 0;
+    }
+
+    .writeup3 h1{
+        font-size: 4vw;
+    }
+
+    .writeup3 p{
+        width: 70%;
+        margin: 0 auto 4vh;
+        font-size: 3.5vw;
+    }
+
+    .holder3-img{
+        min-width: 70%;
+        margin: 5vh auto 0;
+    }
+
+    .vector3{
         width: 100%;
     }
 }
