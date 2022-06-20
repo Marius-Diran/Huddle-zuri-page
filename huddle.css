@@ -112,7 +112,6 @@ body{
 }
 
 .holder2-img{
-    margin: 0 0 0 0;
     width: 30%;
     height: 50vh;
 }
@@ -138,8 +137,7 @@ body{
 }
 
 .writeup3{
-    margin: 0 5vw 0 0;
-    width: 62%;
+    width: 38%;
 }
 
 .writeup3 h2{
@@ -153,10 +151,12 @@ body{
 }
 
 .holder3-img{
-    background: url("images/illustration-flowing-conversation.svg");
-    background-position: center;
-    background-size: 60vh;
-    background-repeat: no-repeat;
+    margin: 0 0 0 4vw;
+    width: 30%;
+    height: 50vh
+}
+
+.vector3{
     width: 100%;
     height: 50vh;
 }
