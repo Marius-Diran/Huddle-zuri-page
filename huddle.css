@@ -177,8 +177,8 @@ body{
 }
 
 .writeup4{
-    margin: 0 0 0 12vw;
-    width: 75%;
+    margin: 0 0 0 4vw;
+    width: 38%;
 }
 
 .writeup4 h2{
@@ -192,10 +192,11 @@ body{
 }
 
 .holder4-img{
-    background: url("images/illustration-your-users.svg");
-    background-position: center;
-    background-size: 60vh;
-    background-repeat: no-repeat;
+    width: 30%;
+    height: 50vh;
+}
+
+.vector4{
     width: 100%;
     height: 50vh;
 }
