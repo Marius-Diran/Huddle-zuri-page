@@ -465,4 +465,62 @@ body{
     .vector3{
         width: 100%;
     }
+
+    
+    .holder-4{
+        margin: 6vh auto 0;
+        height: fit-content;
+        display: block;
+        min-width: 100%;
+    }
+
+    .writeup4{
+        width: 100%;
+        text-align: center;
+        margin: 65vh 0 0 0;
+    }
+
+    .writeup4 h1{
+        height: fit-content;
+        font-size: 4vw;
+    }
+
+    .writeup4 p{
+        height: fit-content;
+        width: 70%;
+        margin: 0 auto;
+        font-size: 3.5vw;
+    }
+
+    .holder4-img{
+        min-width: 70%;
+        margin: -95vh auto 50vh;
+    }
+
+    .vector4{
+        width: 100%;
+    }
+
+    .last-holder{
+        margin: -18vh 3.5vw -18vh 0;
+        border: 1px solid red;
+        width: 90%;
+    }
+
+    .last-writeup{
+        margin: 0;
+        min-width: 100%;
+    }
+
+    .last-writeup h1{
+        padding: 0 auto;
+        font-size: 4.7vw;
+    }
+
+    .last-btn{
+        font-size: 3vw;
+        min-width: 60%;
+    }
+
+
 }
