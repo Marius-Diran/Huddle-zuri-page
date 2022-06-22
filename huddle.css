@@ -503,7 +503,6 @@ body{
 
     .last-holder{
         margin: -18vh 3.5vw -18vh 0;
-        border: 1px solid red;
         width: 90%;
     }
 
@@ -522,5 +521,67 @@ body{
         min-width: 60%;
     }
 
+    .last_logo{
+        max-width: 50%;
+    }
 
+    .locate-icon{
+        right: 44vw;
+    }
+
+    .phone-icon{
+        right: 44vw;
+    }
+
+    .e-icon{
+        right: 44vw;
+        top: 7vh;
+    }
+
+    .text-locate{
+        min-width: 60%;
+        font-size: 3vw;
+        margin: 0 0 0 10.5vw;
+    }
+
+    .No{
+        font-size: 3vw;
+        margin: 0 0 0 10.5vw;
+    }
+
+    .address{
+        font-size: 3vw;
+        padding: 2.5vh 0 0 7vw;
+    }
+
+    .li1{
+        font-size: 3vw;
+        margin: 10vh 0 1vh 0;
+    }
+
+    .li2{
+        font-size: 3vw;
+        margin: 0 0 0 0
+    }
+
+    .social-icon{
+        margin: 8vh auto 0;
+    }
+
+    .social-icon ul li{
+        width: 2rem;
+        height: 2rem;
+    }
+
+    .social-icon ul li img{
+        width: 1.2rem;
+        height: 1.2rem;
+        left: 1.2vw;
+    }
+
+    .C_R-text{
+        margin: 3vh 0 0 18vw;
+        padding: 0 0 9vh 0;
+        font-size: 2.7vw;
+    }
 }
